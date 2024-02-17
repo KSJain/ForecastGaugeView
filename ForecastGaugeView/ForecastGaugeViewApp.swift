@@ -11,7 +11,7 @@ import SwiftUI
 struct ForecastGaugeViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ForecastGaugeView(percentPosition: 0.6, thumbnailText: "Hi")
         }
     }
 }

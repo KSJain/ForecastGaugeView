@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F6BBB1A82B8161B300164E67 /* ForecastGaugeViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBB1A72B8161B300164E67 /* ForecastGaugeViewApp.swift */; };
-		F6BBB1AA2B8161B300164E67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBB1A92B8161B300164E67 /* ContentView.swift */; };
 		F6BBB1AC2B8161B500164E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BBB1AB2B8161B500164E67 /* Assets.xcassets */; };
 		F6BBB1AF2B8161B500164E67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BBB1AE2B8161B500164E67 /* Preview Assets.xcassets */; };
+		F6BBB1B62B8161FB00164E67 /* ForecastGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BBB1B52B8161FB00164E67 /* ForecastGaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6BBB1A42B8161B300164E67 /* ForecastGaugeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastGaugeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BBB1A72B8161B300164E67 /* ForecastGaugeViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastGaugeViewApp.swift; sourceTree = "<group>"; };
-		F6BBB1A92B8161B300164E67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6BBB1AB2B8161B500164E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BBB1AE2B8161B500164E67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6BBB1B52B8161FB00164E67 /* ForecastGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastGaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F6BBB1A72B8161B300164E67 /* ForecastGaugeViewApp.swift */,
-				F6BBB1A92B8161B300164E67 /* ContentView.swift */,
+				F6BBB1B52B8161FB00164E67 /* ForecastGaugeView.swift */,
 				F6BBB1AB2B8161B500164E67 /* Assets.xcassets */,
 				F6BBB1AD2B8161B500164E67 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BBB1AA2B8161B300164E67 /* ContentView.swift in Sources */,
+				F6BBB1B62B8161FB00164E67 /* ForecastGaugeView.swift in Sources */,
 				F6BBB1A82B8161B300164E67 /* ForecastGaugeViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
